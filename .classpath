@@ -7,9 +7,35 @@
 	<classpathentry kind="lib" path="lib/servlet-api-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/tools.jar"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE1.6"/>
 	<classpathentry kind="lib" path="lib/org.osgi.enterprise-4.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/org.osgi.core-4.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/jts-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/ant-javafx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/dt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/javafx-doclet.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/jconsole.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/sa-jdi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/lib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/alt-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/access-bridge-64.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_11/jre/lib/ext/zipfs.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

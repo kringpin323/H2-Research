@@ -23,12 +23,16 @@ package org.h2.jdbcx;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.SQLFeatureNotSupportedException;
 import java.util.ArrayList;
+import java.util.logging.Logger;
+
 import javax.sql.ConnectionEvent;
 import javax.sql.ConnectionEventListener;
 import javax.sql.ConnectionPoolDataSource;
 import javax.sql.DataSource;
 import javax.sql.PooledConnection;
+
 import org.h2.util.New;
 import org.h2.message.DbException;
 
@@ -329,6 +333,12 @@ public class JdbcConnectionPool implements DataSource, ConnectionEventListener {
     public boolean isWrapperFor(Class<?> iface) throws SQLException {
         throw DbException.getUnsupportedException("isWrapperFor");
     }
+
+	@Override
+	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
     /**
      * [Not supported]

@@ -12,7 +12,10 @@ import java.io.PrintWriter;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.SQLFeatureNotSupportedException;
 import java.util.Properties;
+import java.util.logging.Logger;
+
 import javax.naming.Reference;
 import javax.naming.Referenceable;
 import javax.naming.StringRefAddr;
@@ -21,6 +24,7 @@ import javax.sql.DataSource;
 import javax.sql.PooledConnection;
 import javax.sql.XAConnection;
 import javax.sql.XADataSource;
+
 import org.h2.Driver;
 import org.h2.jdbc.JdbcConnection;
 import org.h2.message.TraceObject;
@@ -428,5 +432,11 @@ public class JdbcDataSource extends TraceObject
     public String toString() {
         return getTraceObjectName() + ": url=" + url + " user=" + userName;
     }
+
+	@Override
+	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
